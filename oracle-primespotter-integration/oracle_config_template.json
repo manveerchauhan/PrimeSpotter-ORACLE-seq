@@ -1,0 +1,24 @@
+{
+    "primespotter_dir": "[PLACEHOLDER: /path/to/PrimeSpotter/]",
+    "oracle_seq_dir": "[PLACEHOLDER: /path/to/ORACLE-seq/]",
+    "genome_ref": "[PLACEHOLDER: /path/to/reference.fa]",
+    "gtf_file": "[PLACEHOLDER: /path/to/annotations.gtf]",
+    "bam_input_dir": "[PLACEHOLDER: /path/to/rarefied_bams/]",
+    "output_dir": "[PLACEHOLDER: /path/to/oracle_results/]",
+    "datasets": [
+        "ONT_scRNA",
+        "PB_scRNA", 
+        "ONT_snRNA",
+        "PB_snRNA",
+        "ONT_bulk",
+        "PB_bulk",
+        "ONT_directRNA"
+    ],
+    "rarefaction_depths": [1000, 5000, 10000, 50000, 100000],
+    "parallel_processes": 4,
+    "primespotter_params": {
+        "window_size": 10,
+        "min_oligo_length": 18,
+        "min_quality": 20
+    }
+}
